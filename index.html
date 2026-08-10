@@ -4,12 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bihar Job Mitra</title>
-<meta name="description" content="Bihar Job Mitra - Bihar aur Jharkhand ki latest private jobs, telecaller, BPO, work from home aur fresher jobs.">
+<meta name="description" content="Bihar Job Mitra - Bihar aur Jharkhand ki latest private aur government jobs, telecaller, BPO, work from home aur fresher jobs.">
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#1f2937}
 header{background:#0b57d0;color:#fff;padding:22px 16px;text-align:center}
-header h1{margin:0;font-size:30px} header p{margin:8px 0 0}
+header h1{margin:0;font-size:30px}
+header p{margin:8px 0 0}
 nav{background:#fff;padding:12px;text-align:center;box-shadow:0 2px 8px #0001}
 nav a{color:#0b57d0;text-decoration:none;margin:0 8px;font-weight:bold}
 .container{max-width:900px;margin:auto;padding:18px}
@@ -18,16 +19,22 @@ input{width:100%;padding:13px;border:1px solid #ddd;border-radius:8px;font-size:
 .jobs{display:grid;gap:14px}
 .card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 2px 10px #0001}
 .card h3{margin:0 0 8px;color:#0b57d0}
+.govt{border-left:5px solid #16a34a}
+.govt h3{color:#15803d}
+.badge{display:inline-block;background:#dcfce7;color:#166534;padding:5px 9px;border-radius:5px;font-size:12px;font-weight:bold;margin-bottom:8px}
 .meta{color:#666;font-size:14px;margin-bottom:12px}
 .btn{display:inline-block;background:#0b57d0;color:#fff;text-decoration:none;padding:10px 16px;border-radius:7px}
+.govt .btn{background:#15803d}
 .service{margin-top:20px;background:#fff;padding:20px;border-radius:12px;text-align:center}
 footer{margin-top:25px;background:#111827;color:#fff;text-align:center;padding:20px;font-size:14px}
 </style>
 </head>
+
 <body>
+
 <header>
   <h1>🇮🇳 Bihar Job Mitra</h1>
-  <p>Bihar & Jharkhand ki latest job information</p>
+  <p>Bihar & Jharkhand ki latest Government & Private Job Information</p>
 </header>
 
 <nav>
@@ -37,41 +44,91 @@ footer{margin-top:25px;background:#111827;color:#fff;text-align:center;padding:2
 </nav>
 
 <div class="container">
+
   <div class="search">
-    <input id="search" type="search" placeholder="Job search karein... (jaise Telecaller, Ranchi, 10th)">
+    <input id="search" type="search" placeholder="Job search karein... (jaise Teacher, Telecaller, Ranchi, 10th)">
   </div>
 
   <section id="jobs">
     <div class="jobs" id="jobList">
-      <div class="card job" data-text="telecaller ranchi outbound calling private job">
-        <h3>hindi Outbound Telecaller – Ranchi</h3>
-        <div class="meta">📍 Ranchi &nbsp; | &nbsp; 🎓 10th/12th/Graduate</div>
-        <p>Private telecalling job ki details aur eligibility yahan publish karein.</p>
-        <a class="btn" href="#" onclick="alert('Yahan verified job application link add karein.');return false;">Apply Now</a>
+
+      <!-- GOVERNMENT JOB -->
+      <div class="card job govt" data-text="government sarkari bihar teacher school teacher tre 4 46595">
+        <span class="badge">🏛️ GOVERNMENT JOB</span>
+        <h3>Bihar Teacher Recruitment 2026 – TRE-4</h3>
+
+        <div class="meta">
+          📍 Bihar &nbsp; | &nbsp;
+          👥 46,595 Vacancies
+        </div>
+
+        <p>
+          Bihar Public Service Commission (BPSC) ke exam calendar ke anusaar
+          School Teacher Recruitment Examination (TRE-4) ke liye
+          46,595 vacancies listed hain.
+        </p>
+
+        <p><strong>📝 Exam:</strong> TRE-4</p>
+        <p><strong>📅 Tentative Exam Date:</strong> 22 September 2026 – 27 September 2026</p>
+        <p><strong>🎓 Qualification:</strong> Post/class ke anusaar alag-alag. Official notification zaroor check karein.</p>
+        <p><strong>💰 Salary:</strong> Official notification ke anusaar</p>
+
+        <p style="font-size:13px;color:#b45309;">
+          ⚠️ Important: Exam calendar ki dates tentative hain.
+          Application start date aur last date ke liye BPSC ki official notification check karein.
+        </p>
+
+        <a class="btn" href="https://bpsc.bihar.gov.in/" target="_blank">
+          Official BPSC Website
+        </a>
       </div>
 
+      <!-- PRIVATE JOB -->
+      <div class="card job" data-text="telecaller ranchi outbound calling private job">
+        <h3>Hindi Outbound Telecaller – Ranchi</h3>
+        <div class="meta">📍 Ranchi &nbsp; | &nbsp; 🎓 10th/12th/Graduate</div>
+        <p>Private telecalling job ki details aur eligibility yahan publish karein.</p>
+        <a class="btn" href="#" onclick="alert('Yahan verified job application link add karein.');return false;">
+          Apply Now
+        </a>
+      </div>
+
+      <!-- PRIVATE JOB -->
       <div class="card job" data-text="bpo jamui bihar customer support">
         <h3>BPO / Customer Support – Bihar</h3>
         <div class="meta">📍 Bihar &nbsp; | &nbsp; 🎓 10th/12th/Graduate</div>
         <p>Verified BPO aur customer-support vacancies yahan add karein.</p>
-        <a class="btn" href="#" onclick="alert('Yahan verified job application link add karein.');return false;">Apply Now</a>
+        <a class="btn" href="#" onclick="alert('Yahan verified job application link add karein.');return false;">
+          Apply Now
+        </a>
       </div>
 
+      <!-- WORK FROM HOME -->
       <div class="card job" data-text="work from home remote job fresher">
         <h3>Work From Home – Fresher</h3>
         <div class="meta">🏠 Remote &nbsp; | &nbsp; 🎓 Fresher</div>
         <p>Sirf genuine/verified work-from-home jobs ki information publish karein.</p>
-        <a class="btn" href="#" onclick="alert('Yahan verified job application link add karein.');return false;">Apply Now</a>
+        <a class="btn" href="#" onclick="alert('Yahan verified job application link add karein.');return false;">
+          Apply Now
+        </a>
       </div>
+
     </div>
   </section>
 
   <section class="service" id="resume">
     <h2>📝 Resume Service</h2>
     <p>Professional resume banwane ke liye humse contact karein.</p>
-    <a class="btn" href="https://wa.me/91XXXXXXXXXX">WhatsApp Karein</a>
-    <p style="font-size:12px;color:#777">XXXXXXXXXX ko apne WhatsApp number se replace karein.</p>
+
+    <a class="btn" href="https://wa.me/91XXXXXXXXXX">
+      WhatsApp Karein
+    </a>
+
+    <p style="font-size:12px;color:#777">
+      XXXXXXXXXX ko apne WhatsApp number se replace karein.
+    </p>
   </section>
+
 </div>
 
 <footer id="contact">
@@ -81,10 +138,15 @@ footer{margin-top:25px;background:#111827;color:#fff;text-align:center;padding:2
 <script>
 const input=document.getElementById('search');
 const jobs=document.querySelectorAll('.job');
+
 input.addEventListener('input',()=>{
   const q=input.value.toLowerCase().trim();
-  jobs.forEach(j=>j.style.display=j.dataset.text.includes(q)?'block':'none');
+
+  jobs.forEach(j=>{
+    j.style.display=j.dataset.text.includes(q)?'block':'none';
+  });
 });
 </script>
+
 </body>
 </html>
